@@ -3,9 +3,11 @@ namespace App\Controller;
  
 use App\Controller\AppController;
  
-class HeloController extends AppController
+class PersonsController extends AppController
+ 
 {
-    public function index()
+
+public function index()
     {
         $id = $this->request->query('id');
         $name = $this->request->query('name');
